@@ -7,18 +7,24 @@
     <title>Employee Payroll App</title>
     <link rel="stylesheet" href="EmployeePayroll.css">
 </head>
-<body class="form-content">
+<body>
     <header>
         <div class="logo">
             <img src="logo.png" alt="logo">
             <span style="color: green;">EMPLOYEE <br> PAYROLL</span>
         </div>
     </header>
-    <form class="form" id="form" action="#">
-        <div class="form-head">
-            Employee Payroll Form
-        </div>
-    </form>
+    <div class="row-content">
+        <form class="form" id="form" action="#">
+            <div class="form-head">
+                Employee Payroll Form
+            </div>
+            <div class="row-content">
+                <label for="name" class="label-text">Name</label>
+                <input type="text" class="input" id="name" name="name" placeholder="Name">
+            </div>
+        </form>
+    </div>
 
 <script src="EmployeePayroll.js"></script>
 </body>

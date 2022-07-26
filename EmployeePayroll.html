@@ -16,13 +16,16 @@
     </header>
     <div class="row-content">
         <form class="form" id="form" action="#">
+            
             <div class="form-head">
                 Employee Payroll Form
             </div>
+            
             <div class="row-content">
                 <label for="name" class="label-text">Name</label>
                 <input type="text" class="input" id="name" name="name" placeholder="Name">
             </div>
+            
             <div class="row-content">
                 <label class="label text" for="profile">Profile image</label>
                 <label>
@@ -41,6 +44,36 @@
                     <input type="radio" id="profile4" name="profile4" value="Ellipse4">
                     <img src="Ellipse -4.png" alt="Profile picture" class="profile" id="image4">
                 </label>
+            </div>
+
+            <div class="row-content">
+                <label for="gender" class="label text">Gender</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male" class="text">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female" class="text">Female</label>
+            </div>
+
+            <div class="row-content">
+                <div>
+                    <label class="label text" for="department">Department</label>
+                    <input type="checkbox" id="hr" name="hr" value="HR" class="checkbox">
+                    <label for="hr" class="text">HR</label>
+                    <input type="checkbox" id="sales" name="sales" value="Sales" class="checkbox">
+                    <label for="sales" class="text">Sales</label>
+                    <input type="checkbox" id="finance" name="finance" value="Finance" class="checkbox">
+                    <label for="finance" class="text">Finance</label>
+                    <input type="checkbox" id="engineer" name="engineer" value="Engineer" class="checkbox">
+                    <label for="engineer" class="text">Engineer</label>
+                    <input type="checkbox" id="others" name="others" value="Others" class="checkbox">
+                    <label for="others" class="text">Others</label>
+                </div>
+            </div>
+
+            <div class="row-content">
+                <label for="salary" class="label text">Choose your salary:</label>
+                <input type="range" class="input" name="salary" id="salary" min="300000" max="500000" step="100" value="400000">
+                <output class="salary-output text" for="salary">400000</output>
             </div>
         </form>
     </div>
